@@ -3,8 +3,8 @@ import { MessageCircle } from 'lucide-react';
 
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
-    const message = "Olá! Gostaria de saber mais sobre os serviços da Conecta Digital.";
-    const whatsappUrl = `https://wa.me/55 44 93505-9708?text=${encodeURIComponent(message)}`;
+  const message = "Olá! Gostaria de saber mais sobre os serviços da Conecta Digital.";
+  const whatsappUrl = `https://wa.me/5544935059708?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

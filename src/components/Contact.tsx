@@ -89,7 +89,7 @@ ${formData.reference ? `Referência: ${formData.reference}` : ''}`;
                   value={formData.whatsapp}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-dark-700 border border-dark-600 rounded-lg focus:border-primary-500 focus:outline-none transition-colors"
-                  placeholder="+55 44 93505-9708"
+                  placeholder="(44) 99999-9999"
                 />
               </div>
             </div>
