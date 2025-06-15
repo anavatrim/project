@@ -22,7 +22,7 @@ Serviço: ${formData.service}
 Descrição: ${formData.description}
 ${formData.reference ? `Referência: ${formData.reference}` : ''}`;
 
-    const whatsappUrl = `https://wa.me/+55 44 93505-9708?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+5544935059708?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
