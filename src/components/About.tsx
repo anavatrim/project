@@ -55,11 +55,24 @@ const About = () => {
           >
             <div className="bg-gradient-to-br from-primary-500/20 to-primary-700/20 rounded-2xl p-8 backdrop-blur-sm border border-primary-500/30">
               <div className="text-center">
-                <div className="w-24 h-24 bg-primary-500 rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <Users className="w-12 h-12 text-white" />
+                <div className="w-48 h-48 mx-auto flex items-center justify-center">
+                  <a href='https://github.com/anavatrim' target='_blank'>
+                    <img
+                      src="https://avatars.githubusercontent.com/u/153465524?s=130&v=4"
+                      className="rounded-full"
+                      alt="Leonardo Bits"
+                    />
+                  </a>
+                  <a href='https://github.com/leonardobits' target='_blank' className='ms-[20px]'>
+                    <img
+                      src="https://avatars.githubusercontent.com/u/25851672?s=130&v=4"
+                      className="rounded-full"
+                      alt="Leonardo Bits"
+                    />
+                  </a>
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Desenvolvedores de Maringá</h3>
-                <p className="text-gray-300">
+                <p className="text-gray-300 mb-8">
                   Atendimento direto, sem intermediários. Você fala com quem realmente entende e executa o projeto.
                 </p>
               </div>
